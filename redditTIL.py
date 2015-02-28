@@ -37,7 +37,7 @@ try:
         print "\n"
 
         while True:
-            choice=raw_input('n = next TIL,o = open link,t = tweet TIL,q = quit?')
+            choice=raw_input('n = next TIL,o = open link,t = tweet TIL,q = quit? ')
 
             if choice == 'n':
                 print "."*100+"\n"
