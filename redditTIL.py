@@ -145,7 +145,14 @@ if __name__ == "__main__":
                     sys.exit(0)
                 
                 elif choice == 't':
-                    tweet_status(title+"\n"+url)
+                    tweet = title + "\n" +url
+                    if len(tweet) > 140:
+                        if len(title) > 140:
+                           print "Your tweet is exceeding 140 characters. Try another one!"
+                        else:
+                           tweet = title
+                           tweet_status(title+"\n"+url)
+                           print ""
                 
     except  urllib2.URLError, e:
         print "An error occured! It's not your fault"
