@@ -7,9 +7,11 @@ HOW TO INSTALL
 
 Clone project.Go inside project directory in terminal and type
 
- pip install -r requirements.txt
- chmod a+x redditTIL.py
- ./redditTIL.py
+pip install -r requirements.txt
+
+chmod a+x redditTIL.py
+
+./redditTIL.py
 
 Next time, you'll only need to type
 
