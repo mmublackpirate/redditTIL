@@ -4,6 +4,9 @@ import oauth2 as oauth
 from twitter import *
 
 url="http://www.reddit.com/r/todayilearned/new/.json"
+
+# I don't care about the key!
+
 consumer_key = "hS9IbNdSl09PkXDFGWgM1vd9T"
 consumer_secret = "hFRSUpHkhOp9hKnqGICYE94z80NVx8kMhlhNfNIoFoDW2sH66A"
 
