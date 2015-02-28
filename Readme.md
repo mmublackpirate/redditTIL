@@ -1,11 +1,11 @@
 RedditTIL << WIP >>
 
-A python script for showing Reddit TIL in command line
+A python script for showing Reddit TIL in CLI
 You can also Tweet the fact.
 
 HOW TO INSTALL
 
-Clone project.Go inside project directory in terminal and type
+Clone project.Go inside project directory in CLI and type
 
 pip install -r requirements.txt
 
