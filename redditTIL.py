@@ -8,7 +8,7 @@ consumer_key = "hS9IbNdSl09PkXDFGWgM1vd9T"
 consumer_secret = "hFRSUpHkhOp9hKnqGICYE94z80NVx8kMhlhNfNIoFoDW2sH66A"
 
 def tweet_status(tweet):
-    MY_TWITTER_CREDS = os.path.expanduser('~/.my_app_credentials')
+    MY_TWITTER_CREDS = os.path.expanduser('~/.redditTIL_credentials')
     if not os.path.exists(MY_TWITTER_CREDS):
         oauth_dance("redditTIL",consumer_key,consumer_secret,
                 MY_TWITTER_CREDS)
