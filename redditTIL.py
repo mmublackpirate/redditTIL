@@ -146,13 +146,10 @@ if __name__ == "__main__":
                 
                 elif choice == 't':
                     tweet = title + "\n" +url
-                    if len(tweet) > 140:
-                        if len(title) > 140:
-                           print "Your tweet is exceeding 140 characters. Try another one!"
-                        else:
-                           tweet = title
-                           tweet_status(tweet)
-                           print ""
+                
+                    if len(title)>140:
+                        print "Your tweet exceeds 140 characters limit. Please choose another one"
+
                     else:
                         tweet_status(tweet)
                         print ""
