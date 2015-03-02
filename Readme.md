@@ -7,7 +7,7 @@ HOW TO INSTALL
 
 Clone project.Go inside project directory in CLI and type
 
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 
 chmod a+x redditTIL.py
 
